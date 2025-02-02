@@ -103,6 +103,7 @@ export type Model =
   | 'rog astral lc gaming oc'
   | 'aorus master ice'
   | 'rog astral gaming oc'
+  | 'rog astral oc'
   | '5600x'
   | '5800x'
   | '5900x'
