@@ -5,7 +5,12 @@ export const Coolblue: Store = {
   labels: {
     inStock: {
       container: '.product-order',
-      text: ['bestel snel', 'morgen in huis'],
+      text: [
+        'bestel snel',
+        'morgen in huis',
+        'morgen bezorgd',
+        'in mijn winkelwagen',
+      ],
     },
     maxPrice: {
       container: '.js-order-block .sales-price__current',
@@ -149,6 +154,30 @@ export const Coolblue: Store = {
       model: 'ps5 console',
       series: 'sonyps5c',
       url: 'https://www.coolblue.nl/product/884069',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim soc',
+      series: '5090',
+      url: 'https://www.coolblue.nl/product/959801',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x oc',
+      series: '5090',
+      url: 'https://www.coolblue.nl/product/959803',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim liquid soc',
+      series: '5090',
+      url: 'https://www.coolblue.nl/product/959800',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming trio oc',
+      series: '5090',
+      url: 'https://www.coolblue.nl/product/959802',
     },
   ],
   name: 'coolblue',

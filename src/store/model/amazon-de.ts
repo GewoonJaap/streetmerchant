@@ -18,7 +18,7 @@ export const AmazonDe: Store = {
     },
     inStock: {
       container: '#add-to-cart-button',
-      text: ['in den einkaufswagen'],
+      text: ['In den Einkaufswagen'],
     },
     maxPrice: {
       container: '.a-text-price',
@@ -783,6 +783,94 @@ export const AmazonDe: Store = {
       model: 'xbox series s',
       series: 'xboxss',
       url: 'https://www.amazon.de/dp/B087VM5XC6',
+    },
+    {
+      brand: 'asus',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DS2Z8854&Quantity.1=1',
+      model: 'tuf gaming',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DS2Z8854',
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DT9YQR11&Quantity.1=1',
+      model: 'aorus master',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DT9YQR11',
+    },
+    {
+      brand: 'gigabyte',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DT7GMXHB&Quantity.1=1',
+      model: 'windforce oc',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DT7GMXHB',
+    },
+    {
+      brand: 'asus',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DTHW9MBH&Quantity.1=1',
+      model: 'tuf gaming',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DTHW9MBH',
+    },
+    {
+      brand: 'asus',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DTHVWZ7K&Quantity.1=1',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DTHVWZ7K',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0BSN426TP&Quantity.1=1',
+      model: 'suprim liquid soc',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0BSN426TP',
+    },
+    {
+      brand: 'pny',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DTJFSSZG&Quantity.1=1',
+      model: 'argb oc triple fan',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DTJFSSZG',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DT6Q3BXM&Quantity.1=1',
+      model: 'gaming trio oc',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DT6Q3BXM',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DT6S77JK&Quantity.1=1',
+      model: 'ventus 3x oc',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DT6S77JK',
+    },
+    {
+      brand: 'msi',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DT6SN14V&Quantity.1=1',
+      model: 'suprim soc',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DT6SN14V',
+    },
+    {
+      brand: 'pny',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0DTJF8YT4&Quantity.1=1',
+      model: 'oc triple fan',
+      series: '5090',
+      url: 'https://www.amazon.de/dp/B0DTJF8YT4',
     },
   ],
   name: 'amazon-de',
