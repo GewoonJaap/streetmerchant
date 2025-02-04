@@ -95,8 +95,6 @@ export async function launchBrowser(): Promise<Browser> {
     config.browser.open = false;
   }
 
-  args.push('--no-sandbox');
-
   // Add the address of the proxy server if defined
   if (config.proxy.address) {
     args.push(
